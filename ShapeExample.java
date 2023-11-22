@@ -42,7 +42,7 @@ class Circle extends Shape {
     @Override
     public void printArea() {
         double area = Math.PI * side1 * side1;
-        System.out.println("Area of Circle: " + area);
+        System.out.println("Area of Nwcircle: " + area);
     }
 }
 
@@ -51,7 +51,7 @@ public class ShapeExample {
         Shape[] shapes = new Shape[3];
         shapes[0] = new Rectangle(4, 5);
         shapes[1] = new Triangle(6, 8);
-        shapes[2] = new Circle(3);
+        shapes[2] = new Nwcircle(3);
 
         for (Shape shape : shapes) {
             shape.printArea();
